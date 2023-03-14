@@ -1,0 +1,19 @@
+h1
+{
+ 
+    color: red;    /*rangi  */
+    font-size: 50px;    /*  o'lchami*/
+    font-family: sans-serif;   /* shirfi */
+    font-weight:100;   /* harf qalinligi */
+    word-spacing: 50px;    /* so'zlar orasidagi masofa */
+    letter-spacing: 20px;    /*hariflar orasidagi masofa  */
+    text-transform: uppercase; /* kotta harifda*/
+    text-transform: lowercase; /*kichik harfda  */
+    text-transform: capitalize; /* har bitta so'zni bosh harfini kotta qiladi */
+    text-align: center;/* tekisni o'rtaga olib kelish */
+    text-align: start;/* boshi */ 
+    text-align: end;/*ohiti  */
+    width: 1000px;/* eni */
+    height: 200px; /*  bo'yi*/
+    background-color: black; /* orqa fond rangi */
+}

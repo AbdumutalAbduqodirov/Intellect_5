@@ -1,0 +1,54 @@
+/* html ga bezal berishni uchinchi usuli va aniqliyliy darajasi 3 - o'rinda */
+h2{
+    color: rgb(255, 68, 0);/*  yozuvga rang*/
+font-size: 56px;/* o'lchami */
+font-family:cursive;/*  shirfi*/
+font-weight: 500;/* qalinligi */
+letter-spacing: 20px;/*  harflar orasidagi masofa*/
+word-spacing: 50px; /* so'zlar orasidagi masofa */
+/* text-transform: uppercase; */
+ /* kotta harf */
+/* text-transform: lowercase; */
+/*  kichik harf*/
+/* text-transform: capitalize; */
+/* faqat so'zni bosh harfini kotta qilasdi */
+/* background-color: black; */
+/* orqa fond rangi */
+width: 1000px;/* eni */
+height: 100px;/* bo'yi */
+/* line-height: 200px;  */
+/* satirlar orasidagi masofa  */
+text-align: center; /* teksni o'rtaga olib keladi */
+text-align: start;/* teksni boshiga olib keladi */
+text-align: end;/* teksni oxiriga olib keladi */
+/* **************************************** */
+border-width: 20px; /* chegara qalinligi */
+border-style:solid; /* chegara stili */
+border-color: blue; /* chegara rangi  */
+border: 5px solid aqua; /* uchalasini birdaniga berish */
+border-top: 10px double red;/* yuqori */
+border-right: 5px dotted black; /*  o'ng*/
+border-bottom: 15px dashed yellow;/*  pastki*/
+border-left: 8px outset fuchsia; /* chap */
+border: 10px outset red;
+border-radius: 30px 200px 100px 0; /* qirasini burish  */
+transition: 1s; /* hoverga vaqt */
+}
+ /* borganda */
+/* h2:hover{
+    width: 1300px;
+    height: 80px;
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+} */
+/*  bosganda*/
+h2:active{ 
+    width: 1000px;
+    height: 80px;
+    background-color: red;
+    border-radius: 80px;
+    color: white; 
+    margin-bottom: 100px;
+}
+/*  */

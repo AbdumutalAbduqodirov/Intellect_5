@@ -1,0 +1,20 @@
+h2{
+    line-height: 30px;  /* satirlar orasidagi masofa  */
+    border-width: 20px;/* chegara qlinligi  */
+    border-style: solid;/* chegara stili */
+    border-color: blue; /* chegara rangi */
+    border: 15px double red; /* uchalasini birdaniga berish  */
+    border-top: 2px solid black;/*  yuqori*/
+    border-right: 5px dotted red; /* o'ng */
+    border-bottom: 10px dashed aqua; /* pastki */
+    border-left: 20px double yellow; /* chap */
+    width: 500px;
+    height: 600px;
+    border: 5px solid blue;
+    text-align: center;
+    background-image: url(../Photos/IMG_20230211_074522_760.jpg); /* rasm qo'yish uchun orqa fondiga */
+    background-size: cover; /*  rasmni to'liq holga keltiradi*/
+    background-repeat: no-repeat; /* rasm takrorlanmasligi uchun */
+    background-position: center; /* rasm joylashuvi */
+    border-radius: 50px 100px 30px 200px; /* chegara qirrasini burish */
+}

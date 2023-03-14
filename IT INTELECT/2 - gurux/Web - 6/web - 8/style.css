@@ -1,0 +1,67 @@
+/* selector */
+*{
+margin: 0;/* tashqi chegara */
+padding: 0;/* ichki chegara */
+list-style: none;/*  ul va ol oldidagi belgisini yo'qotadi*/
+text-decoration: none;/* tagidagi chiziqni olib tashlaydi  */
+box-sizing: border-box; /*  bergan razmerni o'z holicha saqlaydi*/
+
+}
+
+.container{
+    width: 1200px;
+    height: 500px;
+    border: 5px solid red;
+    border-radius: 50px;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(../effect.jpg);/* orqa fonga rasm */
+background-repeat: no-repeat; /* rasm takrorlanmasligi uchun */
+background-size: cover; /* berilgan razmerni to'llliq egalashi uchun */
+background-position: center; /* orqa fond joylashuvi */
+
+}
+.item{
+    width: 100px;
+    height: 100px;
+    border: 5px solid rgb(255, 89, 0);
+background-image: url(../images.png);
+background-repeat: no-repeat;
+background-size: cover; 
+background-position: center;
+    /* background-color: blue; */
+/* margin: 20px;
+margin-top: 100px;
+margin-right: 50px;
+margin-bottom: 100px;
+margin-left: 10px; */
+margin: 10px;
+border-radius: 30px;
+
+}
+
+/* #row{
+box-sizing: border-box;
+} */
+
+
+/*   pseouldu class  */
+
+
+.item:first-of-type{/*  birinchisiga*/
+    /* background-color: black; */
+}
+.item:last-of-type{/*  ohirgisiga*/
+    /* background-color: chartreuse; */
+}
+.item:nth-child(5){/* istaganiga */
+    /* background-color: aqua; */
+}
+.item:nth-child(odd){/* faqat toqlariga */
+    /* background-color: black; */
+}
+.item:nth-child(even){/* faqat juftlariga */
+    /* background-color: rgb(149, 11, 11); */
+}

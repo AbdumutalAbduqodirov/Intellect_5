@@ -1,0 +1,30 @@
+h1{
+    color: blue;  /* yozuv rangi */
+    font-size: 35px;  /*razmeri  */
+    font-family: sans-serif;  /*  shirfi*/
+    font-weight:700;  /* harlar semizligi (hajmi) */
+    /* letter-spacing: 15px; */   /* harflar orasidagi masofa */
+  /* word-spacing: 200px;  */   /* so'mzlar orasidagi masofa */
+  text-transform: uppercase;   /*  kotta harfda*/
+text-transform: lowercase;  /* kichik  */
+text-transform: capitalize;   /* sozlarni boshnharfini */
+background-color: red;   /* orqa fonga rang */
+width: 500px;/*  eni*/
+height: 500px;/* bo'yi */
+line-height: 100px; /*  satirlar orasidagi masofa*/
+    text-align: center;/* o'rtasi */
+    text-align: start;/*  boshi*/
+    text-align: end;/* oxiri */
+text-align: center;
+/* chegaralar */
+border-width: 15px;/* chegara o'lchami */
+border-style: double;/* cgegara turi */
+border-color: black;/* chegara rangi */
+border: 10px solid yellowgreen; /* barchasini umumlashgani */
+border-top: 5px solid black; /* yuqori */
+border-right: 10px dashed blue; /* o'ng */
+border-bottom: 20px dotted aqua;/* pastki */
+border-left: 8px double orchid;/* chap */
+border: 7px solid black;
+border-radius: 100%;/* radius shakli */
+}

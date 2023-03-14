@@ -1,0 +1,10 @@
+h1
+{
+ 
+    color: red;    /*rangi  */
+    font-size: 50px;    /*  o'lchami*/
+    font-family: sans-serif;   /* shirfi */
+    font-weight:100;   /* harf qalinligi */
+    word-spacing: 50px;    /* so'zlar orasidagi masofa */
+    letter-spacing: 20px;    /*hariflar orasidagi masofa  */
+}

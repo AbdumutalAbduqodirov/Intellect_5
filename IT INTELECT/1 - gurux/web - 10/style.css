@@ -1,0 +1,58 @@
+
+h2{
+    width: 900px;
+    height: 70px;
+    background-color: rgb(219, 84, 84);
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    transition:1s; /* vaqt  */
+}
+/* Pseudo-classes // transition*/
+h2:hover{  
+    /* ustiga borganda o'zgaradi */
+    width: 1000px;
+    height: 60px;
+    background-color: red;
+    color: black;
+    cursor:pointer;
+    /* ustiga borganda cursor o'zgarsin */
+}
+h2:active{/* bodganda o'zgaradi */
+     width: 1100px;
+    height: 60px;
+    background-color: yellow;
+    color: black;
+}
+h2:first-of-type{/* birinchisiga murojat  */
+    background-color: aqua;
+}
+h2:last-of-type{/* ohirgisiga murojat */
+    background-color: blue;
+}
+h2:nth-child(2){/*istagan elemendga murojat  */
+    background-color: blueviolet;
+}
+h2:nth-child(odd){/* toq elemendlarga murojat
+  */
+    background-color: black;
+    color: wheat;
+   
+
+}
+h2:nth-child(even){ /* juftlariga murojat */
+    background-color: red;
+    color: black;
+}
+/* text-shadow */
+h3{
+    font-size: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: red;
+    text-shadow: 10px 10px 10px black;
+    /* 10px - x o'qi 10px - y oqi 10px - sochilishi rang */
+
+
+
+}
